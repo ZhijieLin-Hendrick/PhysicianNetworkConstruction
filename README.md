@@ -2,8 +2,8 @@
 
 ### 1. Source Data
 -   National Downloadable File: https://data.cms.gov/provider-data/dataset/mj5m-pzi6
-    -   I used the data released on 2021, but that one have been updated and is not available on the official website
-    -   Therefore, all of the analysis below is based on the data of 2021
+    -   I used the data downloaded on 2022 April, but that one have been updated and is not available on the official website
+    -   Therefore, all of the analysis below is based on the data of 2022 April
 
 ### 2. Network Construction
 - Based on the data preprocess by ```data_utils.data_preprocess``` and ```data_utils.data_split```, we could build a physician social network with at least 2 common hospitals and at least 1 common specialties, of which the log-log plot is close to linear one.
